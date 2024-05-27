@@ -1,3 +1,5 @@
+# NOTE: Reviewed, can jst use but don't think it will be useful for my purpose
+
 # This is based on the official vmware-guest module, but modified
 # for aarch64 to disable certain features and add support. I'm unsure
 # how to upstream this because I just don't use certain features... maybe

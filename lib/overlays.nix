@@ -1,3 +1,5 @@
+# NOTE: Reviewed, can just use but will need to check overlays
+
 /* This configures nixpkgs.overlays to include our overlays/ directory.
  */
 let path = ../overlays; in with builtins;

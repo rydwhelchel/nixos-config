@@ -1,3 +1,5 @@
+# NOTE: Reviewed, can just use
+
 # This function creates a NixOS system based on our VM setup for a
 # particular architecture.
 { nixpkgs, overlays, inputs }:
