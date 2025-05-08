@@ -66,7 +66,9 @@
       # This is a VM, no need to check for login
       autoLogin.enable = true;
       autoLogin.user = "ryan";
+      lightdm.enable = true;
     };
+
     ## End setting up for i3
 
     xkb = {
