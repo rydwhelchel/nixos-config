@@ -26,7 +26,11 @@
   networking.networkmanager.enable = true;
 
   # Add better support for virtualbox
-  virtualisation.virtualbox.guest.enable = true;
+  # virtualisation.virtualbox.guest.enable = true;
+
+  # Add better support for VMWare
+  services.xserver.videoDrivers = [ "vmware" ];
+  virtualisation.vmware.guest.enable = true;
 
   # Set your time zone.
   time.timeZone = "America/New_York";
