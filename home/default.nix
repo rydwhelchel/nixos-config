@@ -28,6 +28,7 @@
       # zulu23
       # Java LSP
       # jdt-language-server
+      arandr
     ];
 
     username = "ryan";

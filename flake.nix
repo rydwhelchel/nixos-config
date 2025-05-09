@@ -30,6 +30,14 @@
             ./systems/common/fonts.nix
           ];
         };
+
+        tower = lib.nixosSystem {
+          inherit system;
+          modules = [
+            ./systems/tower/configuration.nix
+            ./systems/common/fonts.nix
+          ];
+        };
       };
 
       homeConfigurations = {
